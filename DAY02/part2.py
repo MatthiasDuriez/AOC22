@@ -8,6 +8,9 @@ def main():
     
     totalScore = 0
 
+    
+
+
     for line in lines:
         x = line.split()
         totalScore += rawResult(ord(x[0]) - 64, ord(x[1]) - 87)
